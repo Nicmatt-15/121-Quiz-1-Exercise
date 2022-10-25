@@ -26,7 +26,7 @@ What is the output of the following code?
 ```java
 Random rand = new Random();
 
-int maxNumber = 0;
+int maxNumber = 5673;
 
 for (int i = 1; i <= 4; i++) {
     int randNum = rand.nextInt(i) + 1;
