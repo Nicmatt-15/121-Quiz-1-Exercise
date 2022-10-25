@@ -48,17 +48,7 @@ Requirement:
 
 ---
 
-## Question 3
-
-Given the following code:
-
-```java
-<fill in with param puzzle>
-```
-
----
-
-## Question 4 - Scalable Figures
+## Question 3 - Scalable Figures
 
 Given the starter code below:
 
@@ -108,7 +98,7 @@ Requirement:
 
 ---
 
-## Question 5 - Implementing `.indexOf(...)`
+## Question 4 - Implementing `.indexOf(...)`
 
 Given the following starter code:
 
@@ -127,7 +117,7 @@ Requirement:
 
 ---
 
-## Question 6 - Undouble
+## Question 5 - Undouble
 
 Given the starter code:
 ```java
@@ -163,7 +153,7 @@ For example, the String "bookkeeper" has three repeated adjacent letters ("oo", 
 
 ---
 
-## Question 7 - Quadrant
+## Question 6 - Quadrant
 
 Given the following starter code:
 ```java
