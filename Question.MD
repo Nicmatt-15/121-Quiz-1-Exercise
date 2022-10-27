@@ -352,4 +352,27 @@ public class Demo {
 }
 ```
 
+---
+
+## Question 16
+
+What is the output of the following code:
+
+```java
+public class Demo {
+    public static void main(String[] args) {
+        modifyNumber(returnSomeDecimal());
+    }
+
+    public static void modifyNumber(double num) {
+        double result = num + returnSomeDecimal();
+        System.out.println(result);
+    }
+
+    public static double returnSomeDecimal() {
+        return (double) (5 / 2);
+    }
+}
+```
+
 
