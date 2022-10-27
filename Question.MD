@@ -33,6 +33,8 @@ for (int i = 1; i <= 4; i++) {
 
     maxNumber = Math.max(maxNumber, randNum);
 }
+
+System.out.println(maxNumber);
 ```
 
 > Write 'random' if the output is random or 'error' if the code does not compile.
