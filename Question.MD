@@ -70,7 +70,7 @@ public class Demo {
 What is the output of the code below?
 
 ```java
-double result = Math.pow(2, 3) != 8 && Math.pow(3, 2) != 9;
+boolean result = Math.pow(2, 3) != 8 && Math.pow(3, 2) != 9;
 System.out.println(result);
 ```
 
