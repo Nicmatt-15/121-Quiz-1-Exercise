@@ -182,7 +182,7 @@ Explain in English what the method below does:
 public static int workOverTime(int x, int y) {
     int result = 1;
     for (int i = 1; i <= y; i++) {
-        result *= result;
+        result *= x;
     }
 
     return result;
