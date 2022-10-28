@@ -185,3 +185,47 @@ The rule is as follow:
 Requirement:
 - You may use nested conditional
 - You may also use the && and || operator
+
+---
+
+## Question 7 - Implementing `.trim()`
+
+In Java, String has a method called `.trim()` that removes all leading
+and trailing spaces from a String.
+
+Example:
+```java
+String someText = "  some  space, eh?  ";
+System.out.println(someText.trim());
+```
+
+Output:
+```
+some  space, eh?
+```
+
+> Notice that .trim() only removes the spaces before the first letter and the space after the very last letter.
+
+Our goal is now to implement this method ourselves!
+
+You are given the following starting code (with instruction in the code)!
+```java
+public class Demo {
+    public static void main(String[] args) {
+        System.out.println(trim("  "));
+        System.out.println(trim("  hello"));
+        System.out.println(trim("hello   "));
+        System.out.println(trim("  hello  "));
+        System.out.println(trim("   multi   word "));
+        System.out.println(trim(""));
+    }
+
+    // Write a method called trim that takes in
+    // a String and returns back the String stripped
+    // of its leading and trailing spaces
+}
+```
+
+Requirements:
+1. You may not use the `trim()` String method (for obvious reason :sweat_smile:)
+2. Your method should not have extra parameter
