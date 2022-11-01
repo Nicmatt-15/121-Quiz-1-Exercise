@@ -115,6 +115,9 @@ Requirement:
 - You may not use the indexOf method
 - You must use exactly one for-loop
 
+> For the sake of simplicity, we are going to assume that we are using this indexOf to find the position of a
+letter from a String. We will <u>**not**</u> use this indexOf to find the position of a phrase from a String.
+
 ---
 
 ## Question 5 - Undouble
@@ -147,8 +150,8 @@ Write a static method called `undouble` that takes a String as a parameter and t
 
 For example, the String "bookkeeper" has three repeated adjacent letters ("oo", "kk", and "ee"), so undouble("bookkeeper") should return the String "bokeper".
 
-> You may assume that the string is composed entirely of lowercase letters. 
-> 
+> You may assume that the string is composed entirely of lowercase letters.
+>
 > The method might also be passed an empty String `""`, in which case it  returns an empty String.
 
 ---
