@@ -126,7 +126,6 @@ Given the starter code:
 ```java
 public class Undouble {
     public static void main(String[] args) {
-        Scanner console = new Scanner(System.in);
         System.out.println(undouble("odegaard"));
         System.out.println(undouble("baz"));
         System.out.println(undouble("mississippi"));
